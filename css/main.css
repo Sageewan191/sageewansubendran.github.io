@@ -1,51 +1,50 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
+html {
+	background: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Helvetica Neue', sans-serif;
 }
 
-h1{
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  font-size: 72px;
-  line-height: 108px;
-  height: 108px;
-  background: #335C7D;
-  color: #fff;
-  font-family: 'PT Sans', sans-serif;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+/*profile box*/
+.profile {
+	height: 400px;
+	width: 400px;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 100px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/*profile picture*/
+.profile-pic {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
 }
 
-ul.posts li {
-    list-style: none;
+/*Cropping*/
+.cropped-pic {
+	display: center;
+    height: 100%;
+    width: auto;
 }
+
+/*Sageewan Subendran*/
+h1 {
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+/*Font Awesome Icons*/
+a { 						
+	font-size: 40px;
+	letter-spacing: 5px;
+	color: white;
+}
+
