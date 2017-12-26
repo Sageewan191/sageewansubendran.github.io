@@ -1,20 +1,95 @@
-html {
-	background: url(../images/background.jpg);
+head {
+	display: none;
+}
+
+body {
+	margin: 0;
+}
+
+/*Home Page Section*/
+.home-page {
+	padding: 1px;
+	background: url(../images/background-mountain.jpg) center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Helvetica Neue', sans-serif;
+	display: block;
+	height: 100%;
+	border-bottom: 3px solid;
+	border-bottom-color: #777;
+}
+
+h1.header-intro {
+	font-family: 'Helvetica Neue';
+	font-style: italic;
+	font-size: 20px;
+}
+
+h1.header-name {
+	font-family: 'Lobster', cursive;
+	font-weight: 0;
+	font-size: 65px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+
+p.mission-statement {
+	padding-top: 60px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+}
+
+/*About Me Section*/
+.about-me {
+	display: block;
+	padding: 1px;
+	background: url(../images/about-me.jpg) center;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	border-bottom: 3px solid;
+	border-bottom-color: #777;
+}
+
+/*Home Box*/
+.home-box {
+	height: 100%;
+	width: 580px;
+	background: rgba(0,0,0,0);
+	text-align: center;
+	padding: 35px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*Home Table*/
+.home-table {
+	padding-top: 60px;
+	margin: 0 auto;
+	border-spacing: 20px;
+}
+
+/*Icon Box*/
+.icons {
+	background: rgba(0,0,0,0);
+	margin-top: 80px;
+	margin-bottom: 0px;
 }
 
 /*profile box*/
 .profile {
-	height: 480px;
-	width: 400px;
+	height: 100%;
+	width: 380px;
 	background: rgba(0,0,0,0.4);
 	text-align: center;
-	padding: 40px;
+	padding: 35px;
 	color: white;
 	margin: 0 auto;
 	margin-top: 40px;
+	margin-bottom: 50px;
 }
 
 /*profile picture*/
@@ -35,22 +110,45 @@ html {
 }
 
 /*Sageewan Subendran*/
-h1 {
+h1.profile-name {
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 32px;
 	letter-spacing: 1px;
 }
 
+/*Paragraph Formatting*/
+p{
+	text-align: justify;
+}
+
 /*Font Awesome Icons*/
-a { 						
+a.icons, a.arrow{ 						
 	font-size: 40px;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 	color: white;
 }
 
-/*Hover buttons*/
-a:hover {
-	color: #777;
+a.home-nav{
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+/*Hover Nav buttons*/
+a.home-nav:hover {
+	color: #555;
+}
+
+/*Hover icons buttons*/
+a.icons:hover {
+	color: #999;
+}
+
+/*Hover arrow button*/
+a.arrow:hover{
+	color: #222;
 }
 
 /*Line in between paragraph personal specifications*/
@@ -60,6 +158,44 @@ a:hover {
 	border-top: 1px solid white;
 }
 
+/*E-Commerce Journey Section*/
+.e-commerce {
+	display: flex;				/*Flex displays divs side by side*/
+	padding: 1px;
+	background: url(../images/maze-staircase.jpg) center;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	border-bottom: 3px solid;
+	border-bottom-color: #777;
+}
+
+/*Abstract Fashion Box*/
+.abstract-fashion {
+	height: 100%;
+	width: 380px;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	padding: 35px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+/*Zeal Apparel Box*/
+.zeal-apparel {
+	height: 100%;
+	width: 380px;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	padding: 35px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
 
 /*For mobile and smaller screens*/
 @media screen and (max-width: 760px){
