@@ -175,7 +175,7 @@ a.arrow:hover{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
-	border-bottom: 3px solid;
+	border-bottom: 1px solid;
 	border-bottom-color: #777;
 }
 
@@ -239,6 +239,19 @@ h1.store-title {
 	font-size: 32px;
 	letter-spacing: 0.5px;
 }
+
+/*Shopify Apps Section*/
+/*.shopify-apps {
+	display: block;
+	padding: 1px;
+	background: url(../images/background-staircasespiral.jpg) center;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	border-bottom: 3px solid;
+	border-bottom-color: #777;
+}*/
 
 /*For mobile and smaller screens*/
 @media screen and (max-width: 760px){
