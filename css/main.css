@@ -88,8 +88,16 @@ p.mission-statement {
 	padding: 35px;
 	color: white;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 50px;
+}
+
+.profileTitle {
+	display: block;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	margin: 0 auto;
+	color: white;
 }
 
 /*profile picture*/
@@ -160,9 +168,9 @@ a.arrow:hover{
 
 /*E-Commerce Journey Section*/
 .e-commerce {
-	display: flex;				/*Flex displays divs side by side*/
+	display: block;
 	padding: 1px;
-	background: url(../images/maze-staircase.jpg) center;
+	background: url(../images/background-staircasespiral.jpg) center;
 	font-family: 'Helvetica Neue', sans-serif;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -171,30 +179,65 @@ a.arrow:hover{
 	border-bottom-color: #777;
 }
 
+.e-commerceTitle {
+	display: block;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	margin: 0 auto;
+	color: white;
+}
+
+/*Stores Box*/
+.stores {
+	display: flex;				/*Flex displays divs side by side*/
+	text-align: center;
+	background: rgba(0,0,0,0);
+	margin: 0 auto;
+}
+
 /*Abstract Fashion Box*/
 .abstract-fashion {
-	height: 100%;
 	width: 380px;
 	background: rgba(0,0,0,0.4);
 	text-align: center;
 	padding: 35px;
 	color: white;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
 /*Zeal Apparel Box*/
 .zeal-apparel {
-	height: 100%;
 	width: 380px;
 	background: rgba(0,0,0,0.4);
 	text-align: center;
 	padding: 35px;
+	padding-bottom: 45px;
 	color: white;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 0px;
 	margin-bottom: 50px;
+}
+
+ul.store-description {
+	text-align: left;
+
+}
+
+ul.app-list {
+	margin-left: 110px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+/*Store Title*/
+h1.store-title {
+	font-weight: 600;
+	font-size: 32px;
+	letter-spacing: 0.5px;
 }
 
 /*For mobile and smaller screens*/
