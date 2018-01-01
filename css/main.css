@@ -329,6 +329,12 @@ h1.apps-title {
 	margin-left: 17px;
 }
 
+/*Animate App Logos*/
+.app-pic:hover {
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+}
+
 /*Development Portfolio Section*/
 .development-portfolio {
 	display: block;
