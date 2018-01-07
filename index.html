@@ -25,7 +25,7 @@
 					<tr>
 						<td><a class="home-nav" id="about-me" href="#about-meSection">About Me</a></td>
 						<td><a class="home-nav" id="e-commerce" href="#e-commerceSection">E-Commerce</a></td>
-						<td><a class="home-nav" id="projects" href="index.html">Projects</a></td>
+						<td><a class="home-nav" id="development-portfolio" href="#development-portfolioSection">Projects</a></td>
 						<td><a class="home-nav" id="contact" href="index.html">Contact</a></td>
 					</tr>
 				</table>
@@ -76,7 +76,7 @@
 			<div class="stores">
 				<div class="abstract-fashion">
 					<div class="profile-pic">
-						<img src="images/Abstract Fashion Logo.png" class ="cropped-pic">
+						<a class="store-link" href="https://abstractfashionstore.com" target="_blank"><img src="images/Abstract Fashion Logo.png" class ="cropped-pic" id="my-store-logos"></a>
 					</div>
 					<h1 class="store-title">Abstract Fashion</h1>
 					<h5>March 2017 - November 2017</h5>
@@ -99,7 +99,7 @@
 				
 				<div class="zeal-apparel">
 					<div class="profile-pic">
-						<img src="images/Zeal Apparel Logo-black.png" class ="cropped-pic">
+						<a class="store-link" href="https://zealapparel.ca" target="_blank"><img src="images/Zeal Apparel Logo-black.png" class ="cropped-pic" id="my-store-logos"></a>
 					</div>
 					<h1 class="store-title">Zeal Apparel</h1>
 					<h5>October 2017 - Present</h5>
@@ -144,11 +144,33 @@
 					<p>Exchange is a platform where Shopify stores are categorized and could be bought or sold.</p>
 				</div>
 			</div>
+			
+			<div class="arrow">
+				<a class="arrow" id="development-portfolio" href="#development-portfolioSection"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+			</div>
 		</div>
 		
-	<!-- <div class="development-portfolio">
-			<h1 class=""></h1>
-		 </div> -->
+		<div class="development-portfolio" id="development-portfolioSection">
+			<h1 class="portfolio-title">Development Portfolio</h1>
+			<div class="project-box">
+				<div class="projects" id="game-of-pig">
+					<img src="images/game-of-pig.png" class ="project-pic" id="game-of-pig-logo">
+					<p>Developed the Game of Pig in Java where a player competes against the computer in a dice rolling game. </p>
+				</div>
+				<div class="projects" id="library-system">
+					<img src="images/library-logo.png" class ="project-pic" id="library-logo">
+					<p>Leveraged OOP using Java to create a Library System that tracks rental information.</p>
+				</div>
+				<div class="projects" id="insult-generator">
+					<img src="images/generator.png" class ="project-pic" id="generator-logo">
+					<p>Developed a Shakespearian Insult Generator using C++ which can generate and save up to 10,000 insults.</p>
+				</div>
+				<div class="projects" id="ritual-network">
+					<a class="ritual-network-link" href="https://shop.ritualnetwork.com/" target="_blank"><img src="images/ritual-network.png" class ="project-pic" id="ritual-network-logo"></a>
+					<p>Develop and manage products, collections, e-mail marketing, and other web contents for the Ritual Network Online Store.</p>
+				</div>
+			</div>
+		</div>
 		
     </body>
 </html>
