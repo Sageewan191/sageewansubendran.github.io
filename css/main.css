@@ -220,6 +220,12 @@ a.arrow:hover{
 	margin-bottom: 50px;
 }
 
+/*Store Logo Animations*/
+#my-store-logos:hover {
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+}
+
 ul.store-description {
 	text-align: left;
 
@@ -335,17 +341,103 @@ h1.apps-title {
     animation: pulse 1s infinite;
 }
 
+/*Arrow to Development Portfolio*/
+.arrow {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 /*Development Portfolio Section*/
 .development-portfolio {
 	display: block;
 	padding: 1px;
-	background: url(../images/background-staircase.jpg) center;
+	background: url(../images/background-whitestairs.jpg) center;
 	font-family: 'Helvetica Neue', sans-serif;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 	border-bottom: 3px solid;
 	border-bottom-color: #777;
+}
+
+/*Development Portfolio Title*/
+.portfolio-title {
+	display: block;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+/*Development Portfolio Box*/
+.project-box {
+	display: flex;				/*Flex displays divs side by side*/
+	background: rgba(0,0,0,0);
+	margin: 0 auto;
+}
+
+/*Development Projects*/
+.projects {
+	width: 180px;
+	background: rgba(0,0,0,0);
+	padding: 10px;
+	color: white;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+/*Project Logos*/
+.project-pic {
+	display: center;
+	height: 150px;
+	width: 150px;
+}
+
+/*Game of Pig Edits*/
+#game-of-pig-logo {
+	margin-left: 8px;
+}
+
+/*Library System Edits*/
+#library-logo {
+	margin-left: 8px;
+}
+
+/*Generator Edits*/
+#generator-logo {
+	margin-left: 22px;
+}
+
+/*Ritual Network Store Edits*/
+#ritual-network-logo {
+	margin-left: 4px;
+}
+
+/*Animate Ritual Network Store Logo*/
+#ritual-network-logo:hover {
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+}
+
+/*Game of Pig Div Box*/
+#game-of-pig {
+	width: 174px;
+}
+
+/*Library System Div Box*/
+#library-system {
+	width: 177px;
+}
+
+/*Library System Div Box*/
+#insult-generator {
+	width: 205px;
+}
+
+/*Ritual Network Div Box*/
+#ritual-network {
+	width: 155px;
 }
 
 /*For mobile and smaller screens*/
@@ -356,4 +448,3 @@ h1.apps-title {
 		}
 	}
 }
-
