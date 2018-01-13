@@ -1,176 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sageewan Subendran</title>
+	<head>
+		<title>2018 Front End Developer Challenge</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type ="text/css" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type ="text/css" href="css/main.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">		
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel='stylesheet' type='text/css'>
-		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	</head>
 	
-    <body>
-		<header class="home-page">
-			<div class="home-box">
-				
-				<h1 class="header-intro">Hi, I'm</h1>
-				<h1 class="header-name">Sageewan</h1>
-				
-				<p class="mission-statement">On a journey to explore the world of E-Commerce...and loving every moment of it!</p>
-				
-				<table class="home-table">
-					<tr>
-						<td><a class="home-nav" id="about-me" href="#about-meSection">About Me</a></td>
-						<td><a class="home-nav" id="e-commerce" href="#e-commerceSection">E-Commerce</a></td>
-						<td><a class="home-nav" id="development-portfolio" href="#development-portfolioSection">Projects</a></td>
-						<td><a class="home-nav" id="contact" href="index.html">Contact</a></td>
-					</tr>
-				</table>
-				
-				<div class="icons">
-					<a class="icons" href="https://www.linkedin.com/in/sageewan-subendran-823188117/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-					<a class="icons" href="https://github.com/sageewansubendran" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-					<a class="icons" href="mailto:sageewan.subendran@queensu.ca" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-					<a class="icons" href="https://zealapparel.ca/" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-				</div>
-				
-			</div>
-		</header>
-		
-		<div class="about-me" id="about-meSection"> 
-			<div class="profileTitle">
-				<h1 class="profile-name">About Me</h1>
-			</div>
-			
-			<div class="profile">
-				<div class="profile-pic">
-					<img src="images/profile pic.jpg" class ="cropped-pic">
-				</div>
-				
-				<h1 class="profile-name">Sageewan Subendran</h1>
-				<h5>Computer Engineer | Developer | E-Commerce Enthusiast</h5>
-				
-				<div class="line-break"></div>
-				
-				<p>
-					Hi there! My name is Sageewan (Sah-jee-wen) and I'm a third year Computer Engineering and Innovation student 
-					at Queen's University. I am passionate and heavily involved in the world of E-Commerce. 
-					Click on the arrow below to learn more about my E-Commerce journey.
-				</p>
-				
-				<div class="arrow">
-					<a class="arrow" id="e-commerce" href="#e-commerceSection"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-				</div>
-				
+	<body>
+		<div class="form-box">
+			<p class="title">Stay up to date with ecommerce trends <br/>with Shopify's newsletter</p>
+			<div class="line-break"></div>
+			<p class="message">Subscribe for free marketing tips</p>
+			<form method="post" action="/main.js" onsubmit="return validate();">
+				<input type="text" name="email" id="email" placeholder="Email Address"></input>
+				<select id="interest" name="interest">
+				  <option value="" disabled selected hidden>Interested in...</option>
+				  <option id="1" value="dropshipping">Dropshipping</option>
+				  <option id="2" value="business-models">Business Models</option>
+				  <option id="3" value="marketing">Online Marketing</option>
+				</select><br>
+				<p id="invalid"></p>
+				<input class ="sign-up-button" type="submit" name="sign-up" value="Sign up now"></input>
+			</form>
+			<div class="unsubscribe-box">
+				<a class="unsubscribe" href="#">Unsubscribe</a>
 			</div>
 		</div>
-		
-		<div class="e-commerce" id="e-commerceSection">
-			<div class="e-commerceTitle">
-				<h1 class="profile-name">E-Commerce Journey</h1>
-			</div>
-			
-			<div class="stores">
-				<div class="abstract-fashion">
-					<div class="profile-pic">
-						<a class="store-link" href="https://abstractfashionstore.com" target="_blank"><img src="images/Abstract Fashion Logo.png" class ="cropped-pic" id="my-store-logos"></a>
-					</div>
-					<h1 class="store-title">Abstract Fashion</h1>
-					<h5>March 2017 - November 2017</h5>
-					<div class="line-break"></div>
-					<ul class="store-description">
-						<li>A drop-shipping store primarily catering to young adults 
-					who enjoy abstract designs, clothing and accessories</li>
-						<li>Generated over $3000 in sales through online and in-person sales channels</li>
-						<li>Primarily used Facebook and Instagram marketing to increase traffic and generate sales</li>
-						<li>Shopify was used to create and host the e-commerce store as well as integrate with Oberlo 
-						to make drop-shipping possible</li>
-						<li>My first profitable Shopify store which was a major indicator that the world of 
-						E-Commerce is one I wanted to explore</li>
-						<li>Sold the store on Shopify Exchange using Escrow to ensure a secure transaction</li>
-						<li>Major Apps Used: <ul class="app-list"><li>Oberlo</li>
-																  <li>Mailchimp</li>
-																  <li>Exchange</li></ul></li>
-					</ul>
-				</div>
-				
-				<div class="zeal-apparel">
-					<div class="profile-pic">
-						<a class="store-link" href="https://zealapparel.ca" target="_blank"><img src="images/Zeal Apparel Logo-black.png" class ="cropped-pic" id="my-store-logos"></a>
-					</div>
-					<h1 class="store-title">Zeal Apparel</h1>
-					<h5>October 2017 - Present</h5>
-					<div class="line-break"></div>
-					<ul class="store-description">
-						<li>An exclusive streetwear clothing brand which promotes being driven, passionate,
-						enthusiastic, and determined to succeed</li>
-						<li>Limited number of clothing are produced for each product release, with each 
-						article of clothing creatively numbered within the design</li>
-						<li>End goal is to sponsor events/programs that help foster young talent in various industries (starting with music)</li>
-						<li>Currently growing a following on social media platforms (Facebook, Instagram), word-of-mouth marketing, 
-							and proximity marketing (Royaltie Gem)</li>
-						<li>Shopify is used to create and host the e-commerce store</li>
-						<li>Major Apps Used: <ul class="app-list"><li>Printful</li>
-																  <li>Mailchimp</li>
-																  <li>Printify</li></ul></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		
-		<div class="shopify-apps">
-			<h1 class="apps-title">My Top 4 Shopify Apps</h1>
-			<div class="app-box">
-				<div class="apps" id="oberlo">
-					<a class="oberlo" href="https://apps.shopify.com/oberlo" target="_blank"><img src="images/oberlo-logo.png" class ="app-pic" id="oberlo-logo"></a>
-					<p>Oberlo allows merchants to dropship products by easily importing products to their store and ship them directly from the supplier to the customer.</p>
-				</div>
-				
-				<div class="apps" id="printful">
-					<a class="printful" href="https://apps.shopify.com/printful" target="_blank"><img src="images/printful-logo.png" class ="app-pic" id="printful-logo"></a>
-					<p>Printful is a white-label on-demand printing service that ships products directly to your customers.</p>
-				</div>
-				
-				<div class="apps" id="mailchimp">
-					<a class="mailchimp" href="https://apps.shopify.com/mailchimp" target="_blank"><img src="images/mailchimp-logo.png" class ="app-pic" id="mailchimp-logo"></a>
-					<p>Mailchimp allows users to build an email subscription list, and automates e-mail marketing for e-commerce businesses.</p>
-				</div>
-				
-				<div class="apps" id="exchange">
-					<a class="exchange" href="https://help.shopify.com/manual/your-account/shopify-exchange" target="_blank"><img src="images/exchange-logo.png" class ="app-pic" id="exchange-logo"></a>
-					<p>Exchange is a platform where Shopify stores are categorized and could be bought or sold.</p>
-				</div>
-			</div>
-			
-			<div class="arrow">
-				<a class="arrow" id="development-portfolio" href="#development-portfolioSection"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
-			</div>
-		</div>
-		
-		<div class="development-portfolio" id="development-portfolioSection">
-			<h1 class="portfolio-title">Development Portfolio</h1>
-			<div class="project-box">
-				<div class="projects" id="game-of-pig">
-					<img src="images/game-of-pig.png" class ="project-pic" id="game-of-pig-logo">
-					<p>Developed the Game of Pig in Java where a player competes against the computer in a dice rolling game. </p>
-				</div>
-				<div class="projects" id="library-system">
-					<img src="images/library-logo.png" class ="project-pic" id="library-logo">
-					<p>Leveraged OOP using Java to create a Library System that tracks rental information.</p>
-				</div>
-				<div class="projects" id="insult-generator">
-					<img src="images/generator.png" class ="project-pic" id="generator-logo">
-					<p>Developed a Shakespearian Insult Generator using C++ which can generate and save up to 10,000 insults.</p>
-				</div>
-				<div class="projects" id="ritual-network">
-					<a class="ritual-network-link" href="https://shop.ritualnetwork.com/" target="_blank"><img src="images/ritual-network.png" class ="project-pic" id="ritual-network-logo"></a>
-					<p>Develop and manage products, collections, e-mail marketing, and other web contents for the Ritual Network Online Store.</p>
-				</div>
-			</div>
-		</div>
-		
-    </body>
+	</body>
 </html>
