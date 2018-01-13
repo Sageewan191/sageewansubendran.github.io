@@ -1,450 +1,94 @@
-head {
-	display: none;
-}
-
 body {
-	margin: 0;
+	background-color: #000639;
 }
 
-/*Home Page Section*/
-.home-page {
-	padding: 1px;
-	background: url(../images/background-mountain.jpg) center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: 'Helvetica Neue', sans-serif;
-	display: block;
-	height: 100%;
-	border-bottom: 3px solid;
-	border-bottom-color: #777;
-}
-
-h1.header-intro {
-	font-family: 'Helvetica Neue';
-	font-style: italic;
-	font-size: 20px;
-}
-
-h1.header-name {
-	font-family: 'Lobster', cursive;
-	font-weight: 0;
-	font-size: 65px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-}
-
-p.mission-statement {
-	padding-top: 60px;
-	font-family: 'Kaushan Script', cursive;
-	text-align: center;
-}
-
-/*About Me Section*/
-.about-me {
-	display: block;
-	padding: 1px;
-	background: url(../images/about-me.jpg) center;
-	font-family: 'Helvetica Neue', sans-serif;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	border-bottom: 3px solid;
-	border-bottom-color: #777;
-}
-
-/*Home Box*/
-.home-box {
-	height: 100%;
-	width: 580px;
-	background: rgba(0,0,0,0);
-	text-align: center;
-	padding: 35px;
+p {
 	color: white;
-	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
 }
 
-/*Home Table*/
-.home-table {
-	padding-top: 60px;
-	margin: 0 auto;
-	border-spacing: 20px;
-}
-
-/*Icon Box*/
-.icons {
+/*Form Box*/
+.form-box {
+	font-family: 'Helvetica';
+	width: 500px;
 	background: rgba(0,0,0,0);
-	margin-top: 80px;
-	margin-bottom: 0px;
-}
-
-/*profile box*/
-.profile {
-	height: 100%;
-	width: 380px;
-	background: rgba(0,0,0,0.4);
-	text-align: center;
-	padding: 35px;
-	color: white;
 	margin: 0 auto;
-	margin-top: 25px;
+	margin-top: 45px;
 	margin-bottom: 50px;
 }
 
-.profileTitle {
-	display: block;
-	text-align: center;
-	background: rgba(0,0,0,0);
-	margin: 0 auto;
-	color: white;
-}
-
-/*profile picture*/
-.profile-pic {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	position: relative;
-	margin: 0 auto;
-}
-
-/*Cropping*/
-.cropped-pic {
-	display: center;
-    height: 100%;
-    width: auto;
-}
-
-/*Sageewan Subendran*/
-h1.profile-name {
+/*Tile Of Form Box*/
+.title {
+	font-size: 24px;
 	font-weight: 600;
-	font-size: 32px;
-	letter-spacing: 1px;
 }
 
-/*Paragraph Formatting*/
-p{
-	text-align: justify;
-}
-
-/*Font Awesome Icons*/
-a.icons, a.arrow{ 						
-	font-size: 40px;
-	letter-spacing: 10px;
-	color: white;
-}
-
-a.home-nav{
-	font-size: 15px;
-	font-weight: 600;
-	letter-spacing: 0px;
-	text-decoration: none;
-	color: white;
-}
-
-/*Hover Nav buttons*/
-a.home-nav:hover {
-	color: #555;
-}
-
-/*Hover icons buttons*/
-a.icons:hover {
-	color: #999;
-}
-
-/*Hover arrow button*/
-a.arrow:hover{
-	color: #222;
-}
-
-/*Line in between paragraph personal specifications*/
+/*Green Line Below Title*/
 .line-break {
-	width: 370px;
-	margin: 0 auto;
-	border-top: 1px solid white;
+	width: 25px;
+	margin: left;
+	border-top: 2px solid #7AB55C;
 }
 
-/*E-Commerce Journey Section*/
-.e-commerce {
-	display: block;
-	padding: 1px;
-	background: url(../images/background-staircasespiral.jpg) center;
-	font-family: 'Helvetica Neue', sans-serif;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	border-bottom: 1px solid;
-	border-bottom-color: #777;
+/*Message Above Email Textbox*/
+.message {
+	font-size: 16px;
+	margin: 40px 0 15px;
 }
 
-.e-commerceTitle {
-	display: block;
-	text-align: center;
-	background: rgba(0,0,0,0);
-	margin: 0 auto;
-	color: white;
+/*Email Textbox*/
+input[type=text] {
+	margin-right: 10px;
+	padding-left: 10px;
+	height: 37px;
+	width: 55%;
+	border-radius: 5px;
+	border: none;
 }
 
-/*Stores Box*/
-.stores {
-	display: flex;				/*Flex displays divs side by side*/
-	text-align: center;
-	background: rgba(0,0,0,0);
-	margin: 0 auto;
+/*Interest Selection*/
+select {
+	height: 39px;
+	width: 40%;
+	padding-left: 8px;
+	border-radius: 5px;
+	border: none;
+	color: #7b7b7b;
 }
 
-/*Abstract Fashion Box*/
-.abstract-fashion {
-	width: 380px;
-	background: rgba(0,0,0,0.4);
-	text-align: center;
-	padding: 35px;
-	color: white;
-	margin: 0 auto;
-	margin-top: 0px;
-	margin-bottom: 50px;
-}
-
-/*Zeal Apparel Box*/
-.zeal-apparel {
-	width: 380px;
-	background: rgba(0,0,0,0.4);
-	text-align: center;
-	padding: 35px;
-	padding-bottom: 45px;
-	color: white;
-	margin: 0 auto;
-	margin-top: 0px;
-	margin-bottom: 50px;
-}
-
-/*Store Logo Animations*/
-#my-store-logos:hover {
-    -webkit-animation: pulse 1s infinite;
-    animation: pulse 1s infinite;
-}
-
-ul.store-description {
-	text-align: left;
-
-}
-
-ul.app-list {
-	margin-left: 110px;
-}
-
-li {
-	margin-bottom: 10px;
-}
-
-/*Store Title*/
-h1.store-title {
+/*Email Invalid Message*/
+#invalid  {
+	margin-top: 8px;
+	color: #C23628;
+	font-size: 11px;
 	font-weight: 600;
-	font-size: 32px;
-	letter-spacing: 0.5px;
 }
 
-/*Shopify Apps Section*/
-.shopify-apps {
-	display: block;
-	padding: 1px;
-	background: url(../images/background-grayscale.jpg) center;
-	font-family: 'Helvetica Neue', sans-serif;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	border-bottom: 3px solid;
-	border-bottom-color: #777;
+/*Sign Up Now Button*/
+input[type=submit] {
+    width: 100%;
+	font-weight: 550;
+    color: white;
+	background-color: #5c6ac4;
+    padding: 14px;
+    margin-top: 11px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/*Shopify Apps Title*/
-h1.apps-title {
-	display: block;
-	background: rgba(0,0,0,0);
+/*Hovering Sign Up Button*/
+input[type=submit]:hover {
+	background-color: #4A00DD;
+}
+
+/*Unsubscribe Div*/
+.unsubscribe-box {
 	text-align: center;
-	font-weight: 600;
-	font-size: 32px;
+	margin-top: 205px;
+	font-size: 10px;
+}
+
+/*Unsubscribe Link*/
+a.unsubscribe {
 	color: white;
-	letter-spacing: 0.5px;
-}
-
-/*Shopify Apps Block*/
-.app-box {
-	display: flex;				/*Flex displays divs side by side*/
-	background: rgba(0,0,0,0);
-	margin: 0 auto;
-}
-
-/*Shopify Apps*/
-.apps {
-	width: 180px;
-	background: rgba(0,0,0,0);
-	padding: 10px;
-	color: white;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-
-/*Oberlo Div Box*/
-#oberlo {
-	width: 180px;
-}
-
-/*Printful Div Box*/
-#printful {
-	width: 200px;
-}
-
-/*Mailchimp Div Box*/
-#mailchimp {
-	width: 190px;
-}
-
-/*Exchange Div Box*/
-#exchange {
-	width: 180px;
-}
-
-/*App Logos*/
-.app-pic {
-	display: center;
-	height: 150px;
-	width: 150px;
-}
-
-/*Oberlo Logo Edits*/
-#oberlo-logo {
-	width: 180px;
-	height: 140px;
-	margin-bottom: 10px;
-	border-radius: 20%;
-}
-
-/*Printful Logo Edits*/
-#printful-logo {
-	width: 210px;
-	height: 100px;
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-
-/*Mailchimp & Exchange Logo Edits*/
-#mailchimp-logo, #exchange-logo {
-	margin-left: 17px;
-}
-
-/*Animate App Logos*/
-.app-pic:hover {
-    -webkit-animation: pulse 1s infinite;
-    animation: pulse 1s infinite;
-}
-
-/*Arrow to Development Portfolio*/
-.arrow {
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-/*Development Portfolio Section*/
-.development-portfolio {
-	display: block;
-	padding: 1px;
-	background: url(../images/background-whitestairs.jpg) center;
-	font-family: 'Helvetica Neue', sans-serif;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	border-bottom: 3px solid;
-	border-bottom-color: #777;
-}
-
-/*Development Portfolio Title*/
-.portfolio-title {
-	display: block;
-	text-align: center;
-	background: rgba(0,0,0,0);
-	margin-top: 20px;
-	margin-bottom: 20px;
-	color: white;
-}
-
-/*Development Portfolio Box*/
-.project-box {
-	display: flex;				/*Flex displays divs side by side*/
-	background: rgba(0,0,0,0);
-	margin: 0 auto;
-}
-
-/*Development Projects*/
-.projects {
-	width: 180px;
-	background: rgba(0,0,0,0);
-	padding: 10px;
-	color: white;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-
-/*Project Logos*/
-.project-pic {
-	display: center;
-	height: 150px;
-	width: 150px;
-}
-
-/*Game of Pig Edits*/
-#game-of-pig-logo {
-	margin-left: 8px;
-}
-
-/*Library System Edits*/
-#library-logo {
-	margin-left: 8px;
-}
-
-/*Generator Edits*/
-#generator-logo {
-	margin-left: 22px;
-}
-
-/*Ritual Network Store Edits*/
-#ritual-network-logo {
-	margin-left: 4px;
-}
-
-/*Animate Ritual Network Store Logo*/
-#ritual-network-logo:hover {
-    -webkit-animation: pulse 1s infinite;
-    animation: pulse 1s infinite;
-}
-
-/*Game of Pig Div Box*/
-#game-of-pig {
-	width: 174px;
-}
-
-/*Library System Div Box*/
-#library-system {
-	width: 177px;
-}
-
-/*Library System Div Box*/
-#insult-generator {
-	width: 205px;
-}
-
-/*Ritual Network Div Box*/
-#ritual-network {
-	width: 155px;
-}
-
-/*For mobile and smaller screens*/
-@media screen and (max-width: 760px){
-	.content h1 {
-		.content h1 {
-			font-size: 250%
-		}
-	}
 }
