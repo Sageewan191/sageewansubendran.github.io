@@ -1,4 +1,4 @@
-<? php
+<?php
 //Getting Submission Info
 	$name = $_POST['name'];
 	$visitor_email = $_POST['email'];
