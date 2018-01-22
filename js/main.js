@@ -2,6 +2,7 @@ $(document).ready(function(){
 	setBindings();
 });
 
+//Next Section - Arrow
 function setBindings() {
 	$(".home-table a, .arrow a").click(function(e){
 		e.preventDefault();
@@ -11,4 +12,8 @@ function setBindings() {
 			scrollTop: $("#" + sectionID).offset().top
 		}, 1200)
 	})
+}
+
+function clickAlert() {
+	alert("Email form is currently under construction");
 }
