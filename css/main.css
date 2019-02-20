@@ -117,7 +117,7 @@ p.mission-statement {
     width: auto;
 }
 
-/*Sageewan Subendran*/
+/*Sageewan Subendran...All Titles*/
 h1.profile-name {
 	font-weight: 600;
 	font-size: 32px;
@@ -394,9 +394,18 @@ h1.apps-title {
 	width: 150px;
 }
 
-/*Game of Pig Edits*/
-#game-of-pig-logo {
-	margin-left: 8px;
+/*Post Hop Edits*/
+#post-hop-logo {
+	margin-top: 35px;
+	margin-bottom: 12px;
+	height: 90px;
+	width: 275px;
+}
+
+/*Animate Post Hop Logo*/
+#post-hop-logo:hover {
+	-webkit-animation: pulse 1s infinite;
+	animation: pulse 1s infinite;
 }
 
 /*Library System Edits*/
@@ -420,9 +429,10 @@ h1.apps-title {
     animation: pulse 1s infinite;
 }
 
-/*Game of Pig Div Box*/
-#game-of-pig {
-	width: 174px;
+/*Post Hop Div Box*/
+#post-hop {
+	margin-top: 15px;
+	width: 270px;
 }
 
 /*Library System Div Box*/
