@@ -414,8 +414,14 @@ h1.apps-title {
 }
 
 /*Generator Edits*/
-#generator-logo {
+#lifestory-logo {
 	margin-left: 22px;
+}
+
+/*Animate Life Story Logo*/
+#lifestory-logo:hover {
+	-webkit-animation: pulse 1s infinite;
+	animation: pulse 1s infinite;
 }
 
 /*Ritual Network Store Edits*/
@@ -441,7 +447,7 @@ h1.apps-title {
 }
 
 /*Library System Div Box*/
-#insult-generator {
+#life-story {
 	width: 205px;
 }
 
@@ -529,9 +535,7 @@ padding-bottom: 1px;
 
 /*For mobile and smaller screens*/
 @media screen and (max-width: 760px){
-	.content h1 {
 		.content h1 {
 			font-size: 250%
 		}
-	}
 }
