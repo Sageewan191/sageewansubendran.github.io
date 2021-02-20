@@ -1,2 +1,4 @@
 # Old Personal Website
-An outdated personal website...will be revamping soon!
+This is my older personal website: https://sageewansubendran.github.io/
+
+Check out my new personal website: https://sageewansubendran.com/
